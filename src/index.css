@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  /* Esta clase crea el "espacio" o anillo exterior grueso.
+     Usamos padding en lugar de border para que el color de fondo 
+     del contenedor (que será el mismo del navbar) se vea como un borde.
+  */
+  .main-button-outer-ring {
+    @apply p-[14px] bg-tranki-primary rounded-full;
+  }
+}
+
+/* Documentación:
+   - @layer components: Asegura que la clase se comporte como una de Tailwind.
+   - p-[14px]: Define el grosor exacto que pediste (14px).
+   - bg-tranki-primary: Debe ser el MISMO color que el 'bg' de tu <nav>.
+*/
