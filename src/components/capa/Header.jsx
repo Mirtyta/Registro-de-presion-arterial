@@ -32,7 +32,7 @@ export default function Header() {
             className="w-8 h-8 rounded-full object-cover border border-tranki-background"
           />
           <h1 className="text-sm font-black tracking-tighter uppercase leading-none">
-            <span className="text-tranki-primary">Tranki</span>
+            <span className="text-tranki-primary">Benita</span>
             <span className="text-tranki-flow">Flow</span>
           </h1>
         </div>
