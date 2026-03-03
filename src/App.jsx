@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Header from "./components/capas/Header";
-import { Navbar } from "./components/capas/Navbar";
+import Header from "./components/capa/Header";
+import { Navbar } from "./components/capa/NavBar";
 import Home from "./pages/Home";
 import Add from "./pages/Add";
 import Stats from "./pages/Stat";
