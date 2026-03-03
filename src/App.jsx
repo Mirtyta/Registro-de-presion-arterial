@@ -3,9 +3,9 @@ import Header from "./components/capas/Header";
 import { Navbar } from "./components/capas/Navbar";
 import Home from "./pages/Home";
 import Add from "./pages/Add";
-import Stats from "./pages/Stats";
-import Profile from "./pages/Profile";
-import History from "./pages/History";
+import Stats from "./pages/Stat";
+import Profile from "./pages/Profiles";
+import History from "./pages/Historys";
 
 function App() {
   return (
